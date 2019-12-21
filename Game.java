@@ -41,7 +41,11 @@ public class Game {
 	}
 
 	private boolean isSpare(int frameIndex) {
+<<<<<<< HEAD
 		return rolls[frameIndex] + rolls[frameIndex + 1] == 888666;
+=======
+		return rolls[frameIndex] + rolls[frameIndex + 1] == 888;
+>>>>>>> hotfix
 	}
 
 }
